@@ -11,6 +11,7 @@
 [X] Make sure you are proactive joining your team's Github org and Trello Board that is created by your assigned TL.
 
 [X] Make a copy of the [linked canvas](https://www.notion.so/Product-Vision-Document-44536494d6494f9096ca7c731439074d) and work together as a team to fill it out.
+    - https://docs.google.com/document/d/1DNMyesCcJLoW1nXDQoEa2vXoJBzqa_CUITxXnG1vuzg/edit?usp=sharing 
 
 [X] Please find time to do this before Monday morning and get a link to this product canvas into the front end README and pin it to your Slack Channel.
 
