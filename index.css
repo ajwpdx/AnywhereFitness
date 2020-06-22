@@ -177,7 +177,7 @@ footer nav {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	width: 20%;
+	width: 120px;
 }
 
 
@@ -187,6 +187,8 @@ footer nav {
 	display: flex;
 	flex-direction: column;
 }
+
+/*responsive design*/
 
 @media(max-width: 750px){
 	
@@ -281,4 +283,42 @@ footer nav {
 	h2{
 		font-size: 1.6rem;
 	}
+
+	#mission p{
+		font-size: 1rem;
+	}
+}
+
+/*contact form */
+
+.contact-form form {
+	display: flex;
+	flex-direction: column;
+}
+
+.contact-form {
+	width: 75%;
+	margin: 5% auto;
+}
+
+.contact-form #description {
+	height: 250px;
+	margin-bottom: 20px;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+.contact-form input {
+	margin-bottom: 20px;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+.contact-form #submit {
+	width: 200px;
+	border: px solid black;
+	background-color: #FEC470;
+	border-radius: 5px;
+	padding: 5px 10px 7px;
+	text-decoration: none;
 }
