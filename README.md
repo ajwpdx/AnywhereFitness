@@ -19,25 +19,25 @@
 # Monday
     Morning Block:
 
-[] Career Lesson Monday Morning
+[X] Career Lesson Monday Morning
 
-[] Finish up Product Vision Document (don't skimp on planning)
+[X] Finish up Product Vision Document (don't skimp on planning)
 
-[] Populate backlog on Trello with user stories
+[X] Populate backlog on Trello with user stories
 
     User Interface Developer:
 
-[] Marketing landing page scaffolded with common layout structure implemented
+[X] Marketing landing page scaffolded with common layout structure implemented
 
-[] Mobile screen width features starting to come into play
+[X] Mobile screen width features starting to come into play
 
-[] Lorem ipsum can be used to fill in your content on your pages. Generators can be found here:
+[X] Lorem ipsum can be used to fill in your content on your pages. Generators can be found here:
     - [https://www.bobrosslipsum.com/](https://www.bobrosslipsum.com/)
     - [https://www.lipsum.com/](https://www.lipsum.com/)
 
     All Projects:
 
-[] All Project's file structures scaffolded and project architecture decided
+[X] All Project's file structures scaffolded and project architecture decided
 
 [] Each project is deployed to Netlify or Heroku by end of day
 
