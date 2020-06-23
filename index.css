@@ -84,13 +84,15 @@ img {
 .navigation a:link {
   color: #212529;
   text-decoration: none;
+  font-weight: bold;
 }
 .navigation a:visited {
   color: #212529;
   text-decoration: none;
 }
 .navigation a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  font-weight: bold;
   color: #84c3e0;
 }
 
@@ -159,7 +161,10 @@ img {
   border-radius: 15px;
   width: 20%;
 }
-
+.home .content-login .btn:hover {
+    background-color: #579fc0;
+    color: #f3f3f3;
+}
 .about-top-content {
   margin-bottom: 20px;
   border-bottom: 1px dashed black;
