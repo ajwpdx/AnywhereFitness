@@ -275,6 +275,7 @@ footer nav {
 	flex-wrap: wrap;
 	margin: 5% auto;
 	justify-content: space-evenly;
+	align-items: flex-start;
 	}
 
 #team-bios img {
