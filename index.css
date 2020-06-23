@@ -203,6 +203,8 @@ footer nav {
 .contact-form {
 	width: 75%;
 	margin: 5% auto;
+	height: 70vh;
+
 }
 
 .contact-form #description {
