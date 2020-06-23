@@ -246,6 +246,7 @@ footer nav {
 .mtile img{
 	width: 30%;
 	margin-top: 4%;
+	border-radius: 15px;
 }
 
 .mtile-caption {
