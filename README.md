@@ -41,25 +41,20 @@
 
 [X] Unit 1 Assessment - 2 PM Pacific
 
-[] Each project is deployed to Netlify or Heroku by end of day
-
-
 # Tuesday
     All Team Members
 
-[] Morning standup with Trello board open
+[X] Morning standup with Trello board open
 
-[] Cover what has been completed in the last day and what every one is working on today
+[X] Cover what has been completed in the last day and what every one is working on today
 
-[] Each team member has completed their first take of the Unit Assessments, with an opportunity for a re-take Friday.
+[X] Each team member has completed their first take of the Unit Assessments, with an opportunity for a re-take Friday.
 
     User Interface Developer
 
 [] Marketing site including all pages fully responsive to Mobile and Desktop screen widths
 
-[] All pages laid out all that's left for each page are styling tweaks
-
-[] Marketing "Login" call to action links user to the Deployed React app login screen
+[X] All pages laid out all that's left for each page are styling tweaks
 
 [] Unit 1 students ONLY: JS assessment - 2 - 5 PM Pacific
 
