@@ -209,7 +209,7 @@ footer nav {
 		margin: 2%;
 		}
 
-	#experience-tiles{
+	#experience-tiles {
 		flex-direction: column;
 		align-items: center;
 	}
@@ -321,4 +321,41 @@ footer nav {
 	border-radius: 5px;
 	padding: 5px 10px 7px;
 	text-decoration: none;
+}
+
+/*marketing pages */
+
+.marketing-tiles{
+	display: flex;
+	flex-direction: column;
+}
+
+.mtile{
+	display: flex;
+	flex-direction: row;
+		width: 90%;
+		margin: 5%;
+		justify-content: space-evenly;
+		align-items: center;
+}
+
+.mtile img{
+	width: 40%;
+}
+
+.mtile-caption {
+	width: 40%;
+	align-items: flex-start;
+
+}
+
+.marketing-tiles h2 {
+	font-size: 3rem;
+	font-weight: bold;
+	color: #028AF2;
+	border-bottom: 5px solid #028AF2;
+}
+
+.marketing-tiles p {
+	font-size: 1.5rem;
 }
