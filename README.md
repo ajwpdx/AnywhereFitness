@@ -39,6 +39,8 @@
 
 [X] All Project's file structures scaffolded and project architecture decided
 
+[X] Unit 1 Assessment - 2 PM Pacific
+
 [] Each project is deployed to Netlify or Heroku by end of day
 
 
