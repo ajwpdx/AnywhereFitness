@@ -53,6 +53,10 @@ a{
 	color: white;
 }
 
+b {
+	font-weight: bold;
+}
+
 nav a:hover{
 	transform: scale(1.1) ;
 }
@@ -170,7 +174,7 @@ footer{
 	background: linear-gradient(315deg, hsla(196, 70%, 79%, 1) 2%, hsla(206, 98%, 48%, 1) 54%);	
 	display: flex;
 	justify-content: center;
-
+	align-items: center;
 }
 
 footer nav {
@@ -240,7 +244,7 @@ footer nav {
 }
 
 .mtile img{
-	width: 35%;
+	width: 30%;
 	margin-top: 4%;
 }
 
@@ -260,7 +264,6 @@ footer nav {
 .marketing-tiles p {
 	padding-top: 4%;
 }
-
 
 /*responsive design*/
 
@@ -307,6 +310,10 @@ footer nav {
 	#mission{
 		width: 65%;
 	}	
+	.mtile img{
+		width: 40%;
+	}
+
 	}
 
 @media(max-width:550px){
