@@ -130,15 +130,15 @@ img {
 }
 .home .content-activities .content-section .text-content {
   width: 100%;
-  padding-right: 1%;
+  padding-right: 10%;
 }
 .home .content-activities .content-section .img-content {
   width: 100%;
-  padding-bottom: 5%;
+  padding: 5%;
 }
 .home .content-activities .content-section .img-content img {
-  width: 100%;
-  height: 300px;
+  width: 80%;
+  height: 200px;
 }
 
 .home .content-login {
@@ -254,4 +254,8 @@ img {
     .navigation .textitems {
       justify-content: center;
     }
+    .text-content {
+        width: 80%;
+    }
+    
   }
