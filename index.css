@@ -62,7 +62,7 @@ nav a:hover{
 }
 
 h1 {
-	font-size: 2rem;
+	font-size: 1.8350rem;
 	font-family: sofia-pro,sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -81,6 +81,7 @@ h2 {
 h3 {
 	font-size: 1.6rem;
 	line-height: 2;
+	text-align: center;
 }
 
 h4{
@@ -114,9 +115,7 @@ em {
 	width: 90%;
 	display: flex;
 	margin: 5% auto;
-	justify-content: space-evenly;
-
-	
+	justify-content: space-between;
 }
 
 .tile, .tile-left {
@@ -124,10 +123,12 @@ em {
 	flex-direction: column;
 	width: 30%;
 	text-align: center;
+	justify-content: space-evenly;
 }
 
 #experience-tiles img{
 	width: 100%;
+	border-radius: 15px;
 }
 
 
@@ -203,8 +204,6 @@ footer nav {
 .contact-form {
 	width: 75%;
 	margin: 5% auto;
-	height: 70vh;
-
 }
 
 .contact-form #description {
@@ -234,15 +233,16 @@ footer nav {
 .marketing-tiles{
 	display: flex;
 	flex-direction: column;
+	width: 90%;
+	margin: 0 auto;
 }
 
 .mtile{
 	display: flex;
 	flex-direction: row;
-		width: 90%;
-		margin: 5%;
-		justify-content: space-evenly;
-		align-items: center;
+	margin: 2% auto;
+	justify-content: space-evenly;
+	align-items: center;
 }
 
 .mtile img{
@@ -268,9 +268,43 @@ footer nav {
 	padding-top: 4%;
 }
 
+/*team page*/
+
+#team-bios{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 5% auto;
+	justify-content: space-evenly;
+	}
+
+#team-bios img {
+	width: 65%;
+	border-radius: 50%;
+} 
+
+.bio{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 25%;
+	margin: 5% 3%;
+}
+
+.bio-caption h2{
+	color: #028AF2;
+	padding-top: 4%;
+}
+
+.bio-caption h3{
+	text-align: center;
+	color: #94D3F0;
+	padding-bottom: 4%;
+
+}
 /*responsive design*/
 
-@media(max-width: 750px){
+@media(max-width: 768px){
 	
 	.logo img{
 		width: 60px;
@@ -293,7 +327,7 @@ footer nav {
 		flex-direction: row;
 		width: 90%;
 		margin: 5%;
-		justify-content: center;
+		align-items: center;
 	}
 
 	.tile-left img {
@@ -316,6 +350,11 @@ footer nav {
 	.mtile img{
 		width: 40%;
 	}
+
+	.bio{
+		width: 35%;
+	}
+	
 
 	}
 
@@ -355,6 +394,9 @@ footer nav {
 
 	.mtile{
 		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 10%;
 			}
 	
 	.mtile-caption{
@@ -363,8 +405,21 @@ footer nav {
 
 	.mtile img{
 		width: 70%;
+		}
+
+	.bio{
+		width: 40%;
+	}
+
+	}
+
+
+@media(max-width:400px){
+		.bio{
+		width: 80%;
 	}
 }
+
 
 @media(max-width:350px){
 	h1{
@@ -380,6 +435,6 @@ footer nav {
 
 
 	}
-	}
-}
 
+
+}
